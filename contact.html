@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/contact.css">
+</head>
+
+<body>
+    <section class="wrapper-main">
+        <form action="index.html" method="post">
+            <label for="firstname">Firstname</label>
+            <br>
+            <input type="text" id="firstname" name="firstname" placeholder="first name">
+            <br>
+            <label for="password">password</label>
+            <br>
+            <input type="password" id="password" name="password" placeholder="password">
+            <br>
+            <label for="email">email</label>
+            <br>
+            <input type="email" id="email" name="email" placeholder="email">
+            <br>
+            <label for="message">Message</label>
+            <br>
+            <textarea name="message" id="message" placeholder="write a message" cols="30" rows="10"></textarea>
+            <br>
+            <label for="">pick your eye color</label>
+            <br>
+            <input type="radio" id="eyecolorblack" name="eyecolor" value="black">
+            <label for="eyecolorblack">Black</label>
+            <input type="radio" id="eyecolorgreen" name="eyecolor" value="green">
+            <label for="eyecolorgreen">Green</label>
+            <input type="radio" id="eyecolorblue" name="eyecolor" value="blue">
+            <label for="eyecolorblue">Blue</label>
+            <br><br>
+            <label for="">what pet do you have?</label>
+            <br>
+            <input type="checkbox" id="petcat" name="petcat" value="cat">
+            <label for="petcat">Cat</label>
+            <input type="checkbox" id="petdog" name="petdog" value="dog">
+            <label for="petdog">Dog</label>
+            <input type="checkbox" id="petbird" name="petbird" value="bird">
+            <label for="petbird">Bird</label>
+            <br><br>
+            <label for="">what kind of car do you have?</label>
+            <br>
+            <select name="cartype" id="cartype">
+                <option value="none">none</option>
+                <option value="toyota">Toyota</option>
+                <option value="ford">Ford</option>
+                <option value="ferrari">Ferrari</option>
+            </select>
+            <br><br>
+            <button type="submit">Submit</button>
+        </form>
+
+    </section>
+
+</body>
+
+</html>
